@@ -26,7 +26,7 @@
             <div for="telefone" class="field">
                 <label class="label">Telefone</label>
                 <div class="control">
-                    <input class="input" type="text" placeholder="telefone" name="telefone" id="telefone">
+                    <input class="input" type="text" placeholder="telefone" name="telefone" id="telefone" data-js="telefone">
                 </div>
             </div>
 
