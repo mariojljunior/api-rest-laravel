@@ -39,7 +39,7 @@
             <div class="field">
                 <label for="cep" class="label">CEP</label>
                 <div class="control">
-                    <input class="input" type="text" placeholder="cep" name="cep" id="cep" value="{{$addresses->cep}}">
+                    <input class="input" type="text" placeholder="cep" name="cep" id="cep" data-js="cep" value="{{$addresses->cep}}">
                 </div>
             </div>
 
