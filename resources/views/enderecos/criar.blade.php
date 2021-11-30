@@ -81,7 +81,7 @@
             </div>
 
             <input class="button is-link" type="submit" value="Salvar">
-            <a class="button is-danger" href="{{ route('mostrar_enderecos') }}">Cancelar</a>
+            <a class="button is-danger" href="{{ route('mostrar_enderecos') }}">Voltar</a>
         </form>
     </div>
 

@@ -30,7 +30,8 @@ class EnderecoController extends Controller
             "estado" => $request->estado,
             "ibge" => $request->ibge
         ]);
-        return "Endereço salvo com sucesso!";
+        // return "Endereço salvo com sucesso!";
+        return redirect()->back()->withInput();
     }
 
     public function show()
@@ -43,7 +44,7 @@ class EnderecoController extends Controller
     public function edit($id)
     {
         $addresses = Endereco::findOrFail($id);
-        return view('addresses.editar', ['addresses' => $addresses]);
+        return view('enderecos.editar', ['addresses' => $addresses]);
     }
 
     public function update(Request $request, $id)
