@@ -33,7 +33,7 @@
                     <div class="field">
                         <label for="cpf_cnpj" class="label">CPF/CNPJ</label>
                         <div class="control">
-                            <input class="input" type="text" placeholder="cpf_cnpj" name="cpf_cnpj" id="cpf_cnpj" value="{{$addresses->cpf_cnpj}}">
+                            <input class="input" type="text" placeholder="cpf_cnpj" name="cpf_cnpj" id="cpf_cnpj" maxlength="14" value="{{$addresses->cpf_cnpj}}">
                         </div>
                     </div>
         
