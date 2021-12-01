@@ -17,7 +17,7 @@
             <div class="buttons is-centered">
                 <a class="button is-link" href="{{ route('criar_enderecos') }}" >Cadastrar novo endereço</a>
                 <a class="button is-info" href="{{ route('mostrar_enderecos') }}" >Endereços cadastrados</a>
-                <a href="https://github.com/mariojljunior/api-rest-laravel" class="button is-dark"><span class="icon"><i class="fab fa-github"></i></span><span>GitHub</span></a>
+                <a href="https://github.com/mariojljunior/api-rest-laravel" target="_black" class="button is-dark"><span class="icon"><i class="fab fa-github"></i></span><span>GitHub</span></a>
             </div>
         </div>
         
