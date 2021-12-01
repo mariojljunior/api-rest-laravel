@@ -10,11 +10,19 @@
     <title>Endereços</title>
 </head>
 <body>
-    <div class="container p-3">
-        <h1 class="title has-text-centered">Escolha alguma opção</h1>
+    <div class="container pt-5">
+        <div class="box">
+            <h1 class="title has-text-centered">Escolha alguma opção</h1>
         
-        <a class="button is-link is-fullwidth m-1" href="{{ route('criar_enderecos') }}" >Cadastrar novo endereço</a>
-        <a class="button is-link is-fullwidth m-1" href="{{ route('mostrar_enderecos') }}" >Ver os endereços cadastrados</a>
+            <div class="buttons is-centered">
+                <a class="button is-link" href="{{ route('criar_enderecos') }}" >Cadastrar novo endereço</a>
+                <a class="button is-info" href="{{ route('mostrar_enderecos') }}" >Endereços cadastrados</a>
+                <a href="https://github.com/mariojljunior/api-rest-laravel" class="button is-dark"><span class="icon"><i class="fab fa-github"></i></span><span>GitHub</span></a>
+            </div>
+        </div>
+        
     </div>
+
+    <script src="https://kit.fontawesome.com/8097c82fee.js" crossorigin="anonymous"></script>
 </body>
 </html>
