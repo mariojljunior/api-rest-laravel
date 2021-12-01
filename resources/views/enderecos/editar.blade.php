@@ -10,7 +10,7 @@
 
     </head>
     <body>
-        <div class="container p-5">
+        <div class="container pt-5">
             <div class="box">
                 <form action="{{ route('atualizar_enderecos', ['id' => $addresses->id]) }}" method="POST">
                     @csrf
