@@ -1,4 +1,4 @@
-#CRUD criado em Lavavel
+# CRUD criado em Lavavel
 
 Sistema de cadastro de endereços de usuários que utiliza a api ViaCep para completar automaticamente o formulário.
 
